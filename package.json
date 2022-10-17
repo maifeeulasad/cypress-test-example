@@ -1,0 +1,22 @@
+{
+  "name": "cypress-test-example",
+  "version": "1.0.0",
+  "description": "Testing a website with Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maifeeulasad/cypress-test-example.git"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Maifee Ul Asad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maifeeulasad/cypress-test-example/issues"
+  },
+  "homepage": "https://github.com/maifeeulasad/cypress-test-example#readme"
+}
