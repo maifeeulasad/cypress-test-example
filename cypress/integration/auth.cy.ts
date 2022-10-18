@@ -2,7 +2,7 @@ describe("auth", () => {
   it("should login", () => {
     const validUsername = [
       "standard_user",
-      "locked_out_user",
+      // "locked_out_user",
       "problem_user",
       "performance_glitch_user",
     ];
