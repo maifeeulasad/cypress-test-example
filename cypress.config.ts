@@ -7,7 +7,6 @@ export default defineConfig({
     "chromeWebSecurity": false,
     // @ts-ignore
     setupNodeEvents(on, config) {
-      // implement node event listeners here
       return {
         browsers: config.browsers.filter(browser => browser.name === 'electron')
       }

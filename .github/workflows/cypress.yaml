@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  cy:
+  e2e:
 
     runs-on: ubuntu-latest
 
