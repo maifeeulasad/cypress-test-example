@@ -4,6 +4,7 @@ export default defineConfig({
   e2e: {
     baseUrl: 'http://www.saucedemo.com',
     specPattern: 'cypress/integration/*.cy.ts',
+    "chromeWebSecurity": false,
     // @ts-ignore
     setupNodeEvents(on, config) {
       // implement node event listeners here
